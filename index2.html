@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Triangle Quiz</title>
+</head>
+
+<body>
+<div class="container">
+    <nav class="navi">
+        <ul>
+        <li class="list-Items"><h1 class="navigation-header">Fun With Triangles</h1></li>
+        <li class="list-Items"><a  class="link "href="index1.html">Is it triangle</a></li>
+        <li class="list-Items"><a  class="link link-Active"href="index2.html">Triangle quiz</a>
+        <li class="list-Items"><a  class="link"href="index3.html">Calculate hypotenuse</a></li>
+        <li class="list-Items"><a  class="link"href="index4.html">Area of triangle</a></li>
+    </ul>
+    </nav>
+    <h1 class="main-hero">Traingle Quiz</h1>
+    <form action="" class="quiz-Form">
+        <div class="question-Container">
+            <p class="labels">Which is the longest side of a triangle?</p>
+            <label class="options-choice"><input type="radio" name="answer1" value="Opposite to biggest angle" />Opposite to biggest
+                angle</label>
+            <label class="options-choice"><input type="radio" name="answer1" value="Opposite to smallest angle" />Opposite to smallest
+                angle</label>
+            <label class="options-choice"><input type="radio" name="answer1" value="None of the above" />None of the above</label>
+        </div>
+        <div class="question-Container">
+            <p class="labels">Sum of which angles do not make a triangle?</p>
+            <label class="options-choice"><input type="radio" name="answer2" value="60,60,60" />60,60,60</label>
+            <label class="options-choice"><input type="radio" name="answer2" value="30,60,90" />30,60,90</label>
+            <label class="options-choice"><input type="radio" name="answer2" value="45,45,60" />45,45,60</label>
+        </div>
+    </form>
+    <button class="btn-main" id="submit-Answer-Btn">Submit Answers</button>
+    <div  class="result-Output" id="result-Div"></div>
+</div>
+    <script src="app2.js"></script>
+   
+</body>
+</html>

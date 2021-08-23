@@ -1,0 +1,77 @@
+body{
+    font-family: 'Urbanist', sans-serif;
+
+}.container{
+   
+    text-align: center;  
+}
+.navi{
+    background-color: #111827;
+    margin-top:0rem;
+    margin: -20px;
+    padding-bottom: 0.1rem;
+    color:white;
+    border-bottom-left-radius: 2rem;
+}
+
+.navigation-header{
+        text-align: left;
+        padding-top:1rem;;
+}
+
+.list-Items{
+    display: inline;
+
+
+}
+
+.link{
+    text-decoration: none;    
+    padding: 1rem;
+    color: white;
+    text-align: right;
+}
+
+.link-Active{
+    font-weight: 900;
+}
+.main-hero{
+    margin-top: 5rem;
+    
+}
+.input-labels{
+    margin:1rem;
+
+        
+}
+.labels{
+    display: block;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    font-weight: bold;
+}
+.input-main{
+    height: 4vh;
+    width: 20vw;
+    border-radius: 0.4rem;
+}
+.btn-main{
+    margin-top: 2rem;
+    height: 4vh;
+    width: 10vw;
+    border-radius: 0.4rem;
+}
+.result-Output{
+    margin-top: 2rem;
+    font-size: x-large;
+    font-weight: bold ;
+    color:#111827;
+
+}
+.question-Container{
+    margin-top: 2rem;
+}
+.options-choice{
+    display: block;
+    margin:1rem
+}
